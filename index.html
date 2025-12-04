@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="icon" href="images/zodiak-img.jpg">
+    <title>ZODiAK | Cyber Security Portfolio</title>
+</head>
+<body>
+
+    <!-- ===================== NAV START ===================== -->
+    <nav>
+        <div class="logo">
+            <a href="#home">&lt; ZODiAK /&gt;</a>
+        </div>
+
+        <!-- زر القائمة للهاتف -->
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+        <div class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ===================== NAV END ===================== -->
+
+    <section class="hero" id="home">
+        <h1 class="glitch-text">ZODiAK</h1>
+        <div class="typing-container" id="typewriter"></div>
+        <p style="margin-top: 20px; color: #888;">Web Application Penetration Tester</p>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            Hello, I'm a security researcher and Pentester. My passion is to break down security barriers to understand how to build them more strongly.
+            I analyze applications, discover vulnerabilities, and provide security solutions to ensure data integrity.
+            Adopt the out of the box thinking methodology while adhering to global standards.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>> Coding < </h3>
+                <ul>
+                    <li>Python (Automation & Scripting)</li>
+                    <li>Front-End (HTML/CSS/JS)</li>
+                    <li>Bash Scripting</li>
+                </ul>
+            </div>
+            
+            <div class="skill-card">
+                <h3>> OS & Networking < </h3>
+                <ul>
+                    <li>Linux (Kali/Parrot)</li>
+                    <li>Windows Internals</li>
+                    <li>Network Analysis</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>> Security & Tools < </h3>
+                <ul>
+                    <li>OWASP Top 10</li>
+                    <li>Web Pentesting</li>
+                    <li>OSCP Methodology</li>
+                    <li>Burp Suite / Metasploit</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="row">
+            <form action="https://formsubmit.co/contact@zodiak0x6@gmail.com" method="post">
+                <input type="text" name="Name" id="name" placeholder="Name" required>
+                <input type="email" name="Email" id="email" placeholder="Email" required>
+                <textarea name="Message" id="message" placeholder="Type Your Message" cols="38" rows="10"></textarea>
+                <button type="submit" class="btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <hr>
+
+    <footer id="footer">
+        <p>All systems operational. © 2025 ZODiAK</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
